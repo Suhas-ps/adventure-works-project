@@ -109,7 +109,8 @@ The Power BI dashboard provides:
 - Product-wise revenue contribution
 - Interactive filters for time and product analysis
 
-Dashboard screenshots are available in the `/dashboards` folder.
+![Vendor Performance Dashboard](<img width="1920" height="1080" alt="Adventure Works Power Bi Screenshot" src="https://github.com/user-attachments/assets/ef5c92c5-35e1-4caf-ac8d-9a218829b20d" />
+)
 
 ---
 

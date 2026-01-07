@@ -1,6 +1,6 @@
 # 🧾 Adventure Works Cycles – Sales Analysis
 
-_Analyzing sales performance and product trends to support business decision-making using Excel, SQL, and Power BI._
+_Analyzing sales performance and product trends to support business decision-making using Excel, SQL, Power BI and Tableau._
 
 ---
 
@@ -54,12 +54,14 @@ The business required a structured analysis of sales data to:
 - Excel (Data cleaning, validation, pivot analysis)
 - SQL / MySQL (Aggregation, filtering, sales calculations)
 - Power BI (Dashboard creation and visualization)
+- Tableau (Dashboard creation and visualization)
 - GitHub
 
 ---
 
 <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
 
+---
 adventure-works-sales-analysis/
 │
 ├── README.md
@@ -70,8 +72,6 @@ adventure-works-sales-analysis/
 ├── powerbi/ # Power BI report file
 ├── dashboards/ # Dashboard screenshots
 └── documentation/ # Analysis summary
-
-
 ---
 
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
@@ -125,9 +125,9 @@ Dashboard screenshots are available in the `/dashboards` folder.
 
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
-**Suhas [Last Name]**  
+**Suhas P S**  
 Business Analyst  
-📧 Email: yourmail@gmail.com  
+📧 Email: suhas00012@gmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/yourprofile  
 🔗 GitHub: https://github.com/yourusername
 

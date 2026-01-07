@@ -59,21 +59,6 @@ The business required a structured analysis of sales data to:
 
 ---
 
-<h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
-
----
-adventure-works-sales-analysis/
-│
-├── README.md
-│
-├── data/ # Raw sales data
-├── sql/ # SQL queries for analysis
-├── excel/ # Excel analysis files
-├── powerbi/ # Power BI report file
-├── dashboards/ # Dashboard screenshots
-└── documentation/ # Analysis summary
----
-
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
 
 - Verified data consistency and removed duplicates

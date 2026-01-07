@@ -1,7 +1,6 @@
+# 🧾 Adventure Works Cycles – Sales Analysis
 
-# 🧾 adventure-works-project
-
-_Analyzing vendor efficiency and profitability to support strategic purchasing and inventory decisions using SQL, Python, and Power BI._
+_Analyzing sales performance and product trends to support business decision-making using Excel, SQL, and Power BI._
 
 ---
 
@@ -13,150 +12,122 @@ _Analyzing vendor efficiency and profitability to support strategic purchasing a
 - <a href="#project-structure">Project Structure</a>
 - <a href="#data-cleaning--preparation">Data Cleaning & Preparation</a>
 - <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
-- <a href="#research-questions--key-findings">Research Questions & Key Findings</a>
+- <a href="#key-analysis--findings">Key Analysis & Findings</a>
 - <a href="#dashboard">Dashboard</a>
-- <a href="#how-to-run-this-project">How to Run This Project</a>
-- <a href="#final-recommendations">Final Recommendations</a>
+- <a href="#final-outcome">Final Outcome</a>
 - <a href="#author--contact">Author & Contact</a>
 
 ---
+
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 
-This project evaluates vendor performance and retail inventory dynamics to drive strategic insights for purchasing, pricing, and inventory optimization. A complete data pipeline was built using SQL for ETL, Python for analysis and hypothesis testing, and Power BI for visualization.
+This project focuses on analyzing sales data from Adventure Works Cycles to
+understand overall business performance. The analysis helps identify sales
+trends, product performance, and time-based patterns to support
+data-driven business decisions.
 
 ---
+
 <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
 
-Effective inventory and sales management are critical in the retail sector. This project aims to:
-- Identify underperforming brands needing pricing or promotional adjustments
-- Determine vendor contributions to sales and profits
-- Analyze the cost-benefit of bulk purchasing
-- Investigate inventory turnover inefficiencies
-- Statistically validate differences in vendor profitability
+The business required a structured analysis of sales data to:
+- Understand overall sales performance
+- Identify top and low-performing products
+- Analyze sales trends over time
+- Support management with clear and reliable reports
 
 ---
+
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
 
-- Multiple CSV files located in `/data/` folder (sales, vendors, inventory)
-- Summary table created from ingested data and used for analysis
+- Adventure Works sales dataset
+- Contains information related to:
+  - Products
+  - Sales transactions
+  - Dates and time periods
+- Dataset is stored in the `/data` folder
 
 ---
 
 <h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
 
-- SQL (Common Table Expressions, Joins, Filtering)
-- Python (Pandas, Matplotlib, Seaborn, SciPy)
-- Power BI (Interactive Visualizations)
+- Excel (Data cleaning, validation, pivot analysis)
+- SQL / MySQL (Aggregation, filtering, sales calculations)
+- Power BI (Dashboard creation and visualization)
 - GitHub
 
 ---
+
 <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
 
-```
-vendor-performance-analysis/
+adventure-works-sales-analysis/
 │
 ├── README.md
-├── .gitignore
-├── requirements.txt
-├── Vendor Performance Report.pdf
 │
-├── notebooks/                  # Jupyter notebooks
-│   ├── exploratory_data_analysis.ipynb
-│   ├── vendor_performance_analysis.ipynb
-│
-├── scripts/                    # Python scripts for ingestion and processing
-│   ├── ingestion_db.py
-│   └── get_vendor_summary.py
-│
-├── dashboard/                  # Power BI dashboard file
-│   └── vendor_performance_dashboard.pbix
-```
+├── data/ # Raw sales data
+├── sql/ # SQL queries for analysis
+├── excel/ # Excel analysis files
+├── powerbi/ # Power BI report file
+├── dashboards/ # Dashboard screenshots
+└── documentation/ # Analysis summary
+
 
 ---
+
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
 
-- Removed transactions with:
-  - Gross Profit ≤ 0
-  - Profit Margin ≤ 0
-  - Sales Quantity = 0
-- Created summary tables with vendor-level metrics
-- Converted data types, handled outliers, merged lookup tables
+- Verified data consistency and removed duplicates
+- Checked for missing or invalid values
+- Standardized date formats for time-based analysis
+- Validated sales and quantity fields for accuracy
+- Prepared clean datasets for analysis in SQL and Power BI
 
 ---
+
 <h2><a class="anchor" id="exploratory-data-analysis-eda"></a>Exploratory Data Analysis (EDA)</h2>
 
-**Negative or Zero Values Detected:**
-- Gross Profit: Min -52,002.78 (loss-making sales)
-- Profit Margin: Min -∞ (sales at zero or below cost)
-- Unsold Inventory: Indicating slow-moving stock
-
-**Outliers Identified:**
-- High Freight Costs (up to 257K)
-- Large Purchase/Actual Prices
-
-**Correlation Analysis:**
-- Weak between Purchase Price & Profit
-- Strong between Purchase Qty & Sales Qty (0.999)
-- Negative between Profit Margin & Sales Price (-0.179)
+- Analyzed overall sales distribution
+- Observed monthly sales patterns and trends
+- Compared product-wise sales performance
+- Identified variations in sales across different time periods
 
 ---
-<h2><a class="anchor" id="research-questions--key-findings"></a>Research Questions & Key Findings</h2>
 
-1. **Brands for Promotions**: 198 brands with low sales but high profit margins
-2. **Top Vendors**: Top 10 vendors = 65.69% of purchases → risk of over-reliance
-3. **Bulk Purchasing Impact**: 72% cost savings per unit in large orders
-4. **Inventory Turnover**: $2.71M worth of unsold inventory
-5. **Vendor Profitability**:
-   - High Vendors: Mean Margin = 31.17%
-   - Low Vendors: Mean Margin = 41.55%
-6. **Hypothesis Testing**: Statistically significant difference in profit margins → distinct vendor strategies
+<h2><a class="anchor" id="key-analysis--findings"></a>Key Analysis & Findings</h2>
+
+- Certain products consistently contributed higher sales revenue
+- Monthly sales analysis revealed fluctuations across time periods
+- Sales trends helped identify peak and low-performing months
+- Product-level analysis supported better performance tracking
 
 ---
+
 <h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
 
-- Power BI Dashboard shows:
-  - Vendor-wise Sales and Margins
-  - Inventory Turnover
-  - Bulk Purchase Savings
-  - Performance Heatmaps
+The Power BI dashboard provides:
+- Overall sales overview
+- Product-wise performance analysis
+- Monthly sales trends
+- Clear visual summaries for business reporting
 
-![Vendor Performance Dashboard](images/dashboard.png)
-
----
-<h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/vendor-performance-analysis.git
-```
-3. Load the CSVs and ingest into database:
-```bash
-python scripts/ingestion_db.py
-```
-4. Create vendor summary table:
-```bash
-python scripts/get_vendor_summary.py
-```
-5. Open and run notebooks:
-   - `notebooks/exploratory_data_analysis.ipynb`
-   - `notebooks/vendor_performance_analysis.ipynb`
-6. Open Power BI Dashboard:
-   - `dashboard/vendor_performance_dashboard.pbix`
+Dashboard screenshots are available in the `/dashboards` folder.
 
 ---
-<h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
-- Diversify vendor base to reduce risk
-- Optimize bulk order strategies
-- Reprice slow-moving, high-margin brands
-- Clear unsold inventory strategically
-- Improve marketing for underperforming vendors
+<h2><a class="anchor" id="final-outcome"></a>Final Outcome</h2>
+
+- Delivered a structured sales analysis for Adventure Works Cycles
+- Provided clear insights into product and time-based sales performance
+- Enabled management to monitor sales trends through dashboards
+- Supported data-driven decision-making
 
 ---
+
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
-**Ayushi Mishra**  
-Data Analyst  
-📧 Email: techclasses0810@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/ayushi-mishra-30813b174/)  
-🔗 [Portfolio](https://www.youtube.com/@techclasses0810/)
+**Suhas [Last Name]**  
+Business Analyst  
+📧 Email: yourmail@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/yourprofile  
+🔗 GitHub: https://github.com/yourusername
+

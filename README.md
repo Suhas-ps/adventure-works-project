@@ -7,12 +7,8 @@ _Data-driven sales performance analysis to support product prioritization, inven
 ## 📌 Table of Contents
 - <a href="#overview">Overview</a>
 - <a href="#business-problem">Business Problem</a>
-- <a href="#dataset">Dataset</a>
 - <a href="#tools--technologies">Tools & Technologies</a>
-- <a href="#project-structure">Project Structure</a>
-- <a href="#data-cleaning--preparation">Data Cleaning & Preparation</a>
 - <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
-- <a href="#key-metrics--kpis">Key Metrics & KPIs</a>
 - <a href="#analysis--key-findings">Analysis & Key Findings</a>
 - <a href="#dashboard">Dashboard</a>
 - <a href="#final-outcome">Final Outcome</a>
@@ -39,36 +35,13 @@ The business required a consolidated view of sales performance to:
 
 ---
 
-<h2><a class="anchor" id="dataset"></a>Dataset</h2>
-
-- Adventure Works sales dataset
-- Transaction-level data including:
-  - Product details
-  - Sales amount
-  - Quantity sold
-  - Order dates
-- Data stored and maintained in the `/data` folder
-
----
-
 <h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
 
-- Excel — data validation, pivot analysis
-- SQL (MySQL) — aggregation, filtering, KPI calculations
-- Power BI — dashboard creation and visualization
-- Tableau — interactive visualization
+- Excel — data validation, pivot analysis, power query
+- SQL (MySQL) — aggregation, filtering, joins
+- Power BI — Data modeling, calculated columns, DAX measures, interactive dashboards
+- Tableau — Interactive dashboards, trend analysis, comparative visual reporting 
 - GitHub — version control and documentation
-
-
----
-
-<h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
-
-- Removed duplicate transaction records
-- Validated sales amount and quantity fields
-- Standardized date formats for monthly analysis
-- Ensured product and category mappings were consistent
-- Performed reconciliation checks between Excel and SQL aggregates
 
 ---
 
@@ -78,26 +51,6 @@ The business required a consolidated view of sales performance to:
 - Evaluated month-over-month sales patterns
 - Compared product-wise revenue contribution
 - Identified periods with significant sales variation
-
----
-
-<h2><a class="anchor" id="key-metrics--kpis"></a>Key Metrics & KPIs</h2>
-
-- **Total Revenue** = Sum of all sales amounts  
-- **Total Units Sold** = Sum of quantities sold  
-- **Average Order Value (AOV)** = Total Revenue / Number of Orders  
-- **Monthly Revenue Growth (%)**  
-- **Product Contribution (%)** = Product Revenue / Total Revenue  
-
----
-
-<h2><a class="anchor" id="analysis--key-findings"></a>Analysis & Key Findings</h2>
-
-- Top 10 products contributed approximately **58% of total revenue**, indicating revenue concentration.
-- Monthly sales analysis showed a **~22% variance** between peak and low-performing months.
-- Certain products recorded **high sales volume but below-average revenue contribution**, highlighting pricing or mix issues.
-- Month-over-month revenue growth remained positive for **8 out of 12 months**, with an average growth rate of **~6%**.
-- Product category analysis revealed that a small subset of categories consistently outperformed others in revenue generation.
 
 ---
 
@@ -122,6 +75,13 @@ The Power BI dashboard provides:
 - Improved decision-making through data-backed insights
 
 ---
+
+<h2><a class="anchor" id="future-enhancements"></a>Future Enhancements</h2>
+
+- Automate data refresh to reduce manual updates and improve reporting efficiency.
+- Add role-based filters to support different business users.
+- Introduce executive-level summary views for quicker performance review.
+
 
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 

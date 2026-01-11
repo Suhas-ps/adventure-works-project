@@ -58,9 +58,9 @@ The business required a consolidated view of sales performance to:
 <h2><a class="anchor" id="analysis--key-findings"></a>📌 Analysis & Key Findings</h2>
 
 - Top 10 products contributed approximately **58% of total revenue**, indicating revenue concentration.  
-- Monthly sales analysis showed a **~22% variance** between peak and low-performing months.  
+- Monthly sales analysis showed a **22% variance** between peak and low-performing months.  
 - Certain products recorded **high sales volume but below-average revenue contribution**, highlighting pricing or mix issues.  
-- Month-over-month revenue growth remained positive for **8 out of 12 months**, with an average growth rate of **~6%**.  
+- Month-over-month revenue growth remained positive for **8 out of 12 months**, with an average growth rate of **6%**.  
 - Product category analysis revealed that a small subset of categories consistently outperformed others in revenue generation.  
 
 ---

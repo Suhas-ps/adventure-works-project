@@ -10,7 +10,7 @@ _Data-driven sales performance analysis to support product prioritization, inven
 - <a href="#tools--technologies">Tools & Technologies</a>
 - <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
 - <a href="#analysis--key-findings">Analysis & Key Findings</a>
-- <a href="#dashboard">Dashboard</a>
+- <a href="#dashboards">Dashboards</a>
 - <a href="#final-outcome">Final Outcome</a>
 - <a href="#future-enhancements">Future Enhancements</a>
 - <a href="#author--contact">Author & Contact</a>
@@ -65,11 +65,15 @@ The business required a consolidated view of sales performance to:
 
 ---
 
-<h2><a class="anchor" id="dashboard"></a>📊 Dashboard</h2>
+<h2><a class="anchor" id="dashboards"></a>📊 Dashboards</h2>
 
 <img width="1920" height="1080" alt="Adventure Works Excel Dashboard" src="https://github.com/user-attachments/assets/125625e1-9051-42e8-b5f7-2a8928130a51" />
 
+<br><br>
+
 <img width="1920" height="1080" alt="Adventure Works Power BI Dashboard" src="https://github.com/user-attachments/assets/ef5c92c5-35e1-4caf-ac8d-9a218829b20d" />
+
+<br><br>
 
 <img width="1920" height="1080" alt="Adventure Works Tableau Dashboard" src="https://github.com/user-attachments/assets/80ca23e1-6532-4cce-898d-20b8e83fcb79" />
 
@@ -99,3 +103,4 @@ Business Analyst
 📧 Email: suhas00012@gmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/yourprofile  
 🔗 GitHub: https://github.com/yourusername
+

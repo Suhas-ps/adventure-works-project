@@ -102,7 +102,7 @@ The business required a consolidated view of sales performance to:
 Business Analyst  
 📧 Email: suhas00012@gmail.com  
 🔗 LinkedIn: https://www.linkedin.com/in/suhas-p-s/  
-🔗 GitHub: https: https://github.com/Suhas-ps
+🔗 GitHub: https://github.com/Suhas-ps
 
 
 

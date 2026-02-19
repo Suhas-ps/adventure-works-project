@@ -67,7 +67,7 @@ The business required a consolidated view of sales performance to:
 
 <h2><a class="anchor" id="dashboards"></a>📊 Dashboards</h2>
 
-"C:\Users\suhas\Desktop\Excelr\GIT hub projects\Adventure Analysis Project\Screenshot\Adventure Works Excel Screenshot.png"
+<img width="1178" height="667" alt="Adventure Works Excel Screenshot" src="https://github.com/user-attachments/assets/64860336-a936-4193-a75e-dbaa37b006fc" />
 
 ---
 
@@ -75,7 +75,7 @@ The business required a consolidated view of sales performance to:
 
 ---
 
-<img width="1920" height="1080" alt="Adventure Works Tableau Dashboard" src="https://github.com/user-attachments/assets/80ca23e1-6532-4cce-898d-20b8e83fcb79" />
+<img width="1915" height="1077" alt="Adventure Works Tableau Screenshot" src="https://github.com/user-attachments/assets/a6fc04e1-87b2-4749-9ffc-3ba8a8fef1e1" />
 
 ---
 
